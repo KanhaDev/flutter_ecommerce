@@ -20,6 +20,8 @@ class AppRouter {
       return WishlistScreen.route();
       case CatalogScreen.routeName:
       return CatalogScreen.route();
+      case AddressScreen.routeName:
+      return AddressScreen.route();
 
       default:
         return _errorRoute();
